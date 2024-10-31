@@ -1,0 +1,78 @@
+a,
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.pl-nearby-locations-container {
+  max-width: 95%;
+  overflow: auto;
+}
+
+.pl-nearby-locations-container .accordion-container {
+  width: 30%;
+  height: 500px;
+  overflow: scroll;
+  float: left;
+}
+
+.pl-nearby-locations-container .accordion-container a {
+  text-decoration: none;
+  display: block;
+}
+
+.pl-nearby-locations-container .accordion-container a:hover,
+.pl-nearby-locations-container .accordion-container a:focus {
+  text-decoration: none;
+}
+
+.pl-nearby-locations-container .accordion-container a.toggle-all {
+  padding: 1em .5em 1em .7em;
+  font-size: 16px;
+  line-height: 1.1;
+  border-bottom: 1px solid #fff;
+}
+
+.pl-nearby-locations-container .accordion-container .ui-accordion .ui-accordion-header {
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 1em .5em 1em .7em;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.pl-nearby-locations-container .accordion-container .ui-accordion .ui-accordion-header:focus {
+  outline: 0;
+}
+
+.pl-nearby-locations-container .accordion-container .ui-accordion .ui-accordion-header .ui-icon {
+  position: absolute;
+  right: 10px;
+  margin-top: 1px;
+}
+
+.pl-nearby-locations-container .accordion-container .ui-accordion .ui-accordion-content {
+  border-radius: 0;
+  border: none;
+  padding: 10px 15px 5px 0;
+}
+
+.pl-nearby-locations-container .accordion-container .ui-accordion .ui-accordion-content ul {
+  margin-bottom: 0;
+}
+
+.pl-nearby-locations-container .accordion-container .ui-accordion .ui-accordion-content ul li a {
+  padding: 0.25em 15px 0.25em 0;
+}
+
+.pl-nearby-locations-container .map {
+  height: 500px;
+  width: 70%;
+  float: left;
+}
+
+.pl-nearby-locations-container .map img {
+  max-width: none;
+}

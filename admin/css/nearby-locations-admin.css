@@ -1,0 +1,34 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.form-control {
+    display: block;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+.form-control label {
+    min-width: 150px;
+    line-height: 27px;
+}
+
+.form-control label,
+.form-control input,
+.form-control select {
+    float: left;
+}
+
+.indented {
+    margin: 10px 0 0 150px !important;
+}
+
+.pl-nearby-locations-container .accordion-container .ui-accordion .ui-accordion-content ul {
+    list-style: disc;
+    margin: 0 0 0 40px;
+}
+
+#ajf-nearby-locations-message {
+	line-height: 28px;
+}
